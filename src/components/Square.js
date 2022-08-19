@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Square extends Component {
-  render() {
-    return(
-      <>
-      </>
-    )
-  }
+const Square = (props) => {
+  return (
+    <>
+    <div className="square">
+      {props.value}
+    </div>
+    </>
+  )
 }
 export default Square
